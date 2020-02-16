@@ -11,6 +11,8 @@
 ## Users
 - 退会ステータスがstring型になっている
   > 選択肢が二択の場合はboolean型を使用しましょう。
+- member_statusだとfalseの状態がわからない
+  > 退会しているかどうかという二択の場合"is_xxx"のような命名をしましょう。
 
 ## Products
 - FKが設定されていない
